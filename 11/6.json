@@ -1,0 +1,39 @@
+[
+    {
+        "Name": "Spartsuite",
+        "Invoice": 123,
+        "Created": "January 1, 2015",
+        "Due": "February 1, 2015",
+        "Address": [
+            {
+                "Company": "Sparksuite, Inc.",
+                "NO": "12345",
+                "Road": "Sunny Road",
+                "City": "Sunnyville",
+                "State": "TX",
+                "ZIP": "12345"
+            }
+        ],
+        "Payment": [
+            {
+                "Payment_Method": "Check",
+                "Check": 1000
+            }
+        ],
+        "Purchase": [
+            {
+                "Item": "Website design",
+                "Price": 300
+            },
+            {
+                "Item": "Hosting (3 months)",
+                "Price": 75
+            },
+            {
+                "Item": "Domain name (1 year)",
+                "Price": 10
+            }
+        ],
+        "Total": 385
+    }
+]
