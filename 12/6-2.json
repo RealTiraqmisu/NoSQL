@@ -1,0 +1,94 @@
+[
+    {
+        "ClientID": "C76",
+        "ClientName": "Noppadon",
+        "RentProperties": ["104", "160"]
+    },
+    {
+        "ClientID": "C56",
+        "ClientName": "Thana",
+        "RentProperties": ["161", "128", "355"]
+    }
+]
+
+[
+    {
+        "PropertyNo": "104",
+        "PropertyAddress": [
+            {
+                "City": "Beijing",
+                "Country": "China"
+            }
+        ],
+        "Rent": 32000,
+        "OwnerNo" : "C40",
+        "ClientID": "C76"
+    },
+    {
+        "PropertyNo": "160",
+        "PropertyAddress": [
+            {
+                "City": "Bangkok",
+                "Country": "Thailand"
+            }
+        ],
+        "Rent": 22000,
+        "OwnerNo" : "C93",
+        "ClientID": "C76"
+    },
+    {
+        "PropertyNo": "161",
+        "PropertyAddress": [
+            {
+                "City": "Osaka",
+                "Country": "Japan"
+            }
+        ],
+        "Rent": 40000
+        ,
+        "OwnerNo" : "C16",
+        "ClientID": "C56"
+    },
+    {
+        "PropertyNo": "128",
+        "PropertyAddress": [
+            {
+                "City": "Bangkok",
+                "Country": "Thailand"
+            }
+        ],
+        "Rent": 18000,
+        "OwnerNo" : "C93",
+        "ClientID": "C56"    
+    },
+    {
+        "PropertyNo": "355",
+        "PropertyAddress": [
+            {
+                "City": "Phuket",
+                "Country": "Thailand"
+            }
+        ],
+        "Rent": 23500,
+        "OwnerNo" : "C93",
+        "ClientID": "C56"
+    }
+]
+
+[
+    {
+        "OwnerNo": "C40",
+        "OwnerName": "Aye Mi",
+        "PropertyNo": "104"
+    },
+    {
+        "OwnerNo": "C93",
+        "OwnerName": "Somchai",
+        "PropertyNo": ["160", "128", "355"]
+    },
+    {
+        "OwnerNo": "C16",
+        "OwnerName": "Takashi",
+        "PropertyNo": "161"
+    }
+]
